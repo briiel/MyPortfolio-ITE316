@@ -100,10 +100,10 @@ span {
 
 .home-img img {
     width: 25vw;
-    animation: floatImage 4s ease-in-out infinite;
+    /*nimation: floatImage 4s ease-in-out infinite;*/
 }
 
-@keyframes floatImage {
+/*@keyframes floatImage {
     0% {
         transform: translateY(0);
     }
@@ -113,7 +113,7 @@ span {
     100% {
         transform: translateY(0);
     }
-}
+}*/
 
 .home-content p {
     font-size: 1.6rem;
@@ -252,8 +252,8 @@ span {
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--snd-bg-color);
+    color: var(--text-color);   
+    background: var(--main-color);
     border-radius: .8rem;
     margin: .7rem 0;
 }
@@ -269,4 +269,8 @@ span {
 .contact form .btn {
     margin-top: 2rem;
     cursor: pointer;
+}
+
+.contact {
+    background: var(--snd-bg-color);
 }
